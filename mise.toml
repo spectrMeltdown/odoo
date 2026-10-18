@@ -1,0 +1,16 @@
+[tools]
+# Python runtime for Odoo 18
+python = "3.12"
+
+# Fast Python package and venv manager
+uv = "latest"
+
+# Node.js LTS for frontend assets, RTL CSS, and JS linting
+node = "20"
+
+# (Optional) High-speed linter and formatter for custom Odoo modules
+ruff = "latest"
+
+[env]
+# Ensure uv prefers the Python version managed by mise
+UV_PYTHON = "3.12"
